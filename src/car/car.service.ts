@@ -14,7 +14,7 @@ export class CarService {
     return this.carsRepository.find();
   }
 
-  async findOne(id: number): Promise<any> {
+  async findOne(id: number): Promise<Cars> {
     return this.carsRepository.findOne(id);
   }
 }
