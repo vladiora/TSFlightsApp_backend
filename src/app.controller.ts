@@ -6,6 +6,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return  "Visit the /cars route to see a list of cars!"
+    return  "Hello..."
   }
 }
